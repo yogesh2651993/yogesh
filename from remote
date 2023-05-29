@@ -1,0 +1,19 @@
+find command --> it supports searching a file,directories,creation and owner and permission
+
+find -name <filename> -- to search and display all files with the name
+
+find -iname <filename> --case sensitive search
+
+find -mtime -3 --> to find all the files and directories that were created last 3 days
+
+find -mtime +30 -->  to find all the files and directories that were created more 30 days
+
+find . -name tues(filename)  to search in the current and subdirectories as well
+
+find -name DEVOPS -type f --to find only files 
+
+find -name DEVOPS -type d -- to find only directories
+
+find -type f -name "opq*" -- to display starting with opq(only files)
+
+find -type d -name "d*" -- to display starting with opq(only directories)
