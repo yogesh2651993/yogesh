@@ -17,3 +17,4 @@ find -name DEVOPS -type d -- to find only directories
 find -type f -name "opq*" -- to display starting with opq(only files)
 
 find -type d -name "d*" -- to display starting with opq(only directories)
+28-05-2024 11:25
